@@ -1,0 +1,27 @@
+.about__container{
+    display: flex;
+    margin: 16px;
+    flex-direction: column;
+}
+
+.about__item{
+    display: flex;
+    margin: auto;
+    font-size: 32px;
+    width: 350px;
+}
+
+.about__icon{
+    display: flex;
+}
+
+.about__icon img{
+    width: 100px;
+}
+
+.about__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}

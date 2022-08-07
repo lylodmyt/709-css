@@ -1,0 +1,22 @@
+footer{
+    text-align: center;
+    background-color: rgb(176, 176, 176);
+    font-size: 1.5em;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social li{
+    display: inline;
+    margin: 0 10px 5px 10px;
+    font-size: 30px;
+    color: var(--button-color);
+    transition: 0.5s;
+}
+
+.social li:hover{
+    color: var(--button-hover-color);
+}

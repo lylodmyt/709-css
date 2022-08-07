@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Nunito', sans-serif;
+    --button-color: #08a41d;
+    --button-hover-color: #07d623;
+}
+
+.section__about, .section__products, .section__contact{
+    text-align: center;
+    margin: 16px 0 16px 0;
+} 
+
+h2{
+    margin: 10px;
+    font-size: 28px;
+}
