@@ -48,3 +48,15 @@
 .price{
     font-weight: 600;
 }
+
+@media screen and (max-width:800px) {
+    .products__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__card{
+        margin: 0 auto 10px auto;
+        min-width: 30%;
+    }
+}
